@@ -731,7 +731,7 @@
         case 200:
           // Success
             $this->log->LogResponse($response);          
-            return array(200, $body);
+            return array(200, $body_xml);
           break;
         case 503:
             $this->log->LogError($response);

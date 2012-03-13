@@ -1030,7 +1030,7 @@
      *               and the redirect url returned by the server in index 1
      */
     function CheckoutServer2Server($proxy=array(), $certPath='') {
-      require_once(dirname(__FILE__).'/library/googlerequest.php');
+      //require_once(dirname(__FILE__).'/library/googlerequest.php');
       $GRequest = new GoogleRequest($this->merchant_id, 
                       $this->merchant_key, 
                       $this->server_url=="https://checkout.google.com/"?
